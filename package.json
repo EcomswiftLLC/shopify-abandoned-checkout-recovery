@@ -1,0 +1,31 @@
+{
+  "name": "shopify-abandoned-checkout-recovery",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js library + CLI that turns Shopify abandoned checkouts into a recovery report and optional single-use recovery discount codes for outreach.",
+  "main": "lib/index.js",
+  "bin": {
+    "sacr": "bin/sacr.js"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "shopify",
+    "abandoned-checkout",
+    "cart-recovery",
+    "ecommerce",
+    "marketing-automation",
+    "sales",
+    "cli"
+  ],
+  "author": "Ecom Swift LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcomswiftLLC/shopify-abandoned-checkout-recovery.git"
+  },
+  "homepage": "https://www.ecomswiftllc.com"
+}
